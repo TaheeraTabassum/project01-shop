@@ -12,11 +12,11 @@ export default function Nav() {
 
         <div>
           <ul className='flex gap-12 items-center'>
-            <li><NavLink to="/">Home</NavLink> </li>
-            <li><NavLink to="/shop">Shop</NavLink> </li>
-            <li><NavLink to="/blog">Blog</NavLink> </li>
-            <li><NavLink to="/about">About</NavLink> </li>
-            <li><NavLink to="/contact">Contact</NavLink> </li>
+            <li><NavLink className={({isActive})=>isActive?'text-[#5CAF90] text-md font-semibold':''} to="/">Home</NavLink> </li>
+            <li><NavLink className={({isActive})=>isActive?'text-[#5CAF90] text-md font-semibold':''} to="/shop">Shop</NavLink> </li>
+            <li><NavLink className={({isActive})=>isActive?'text-[#5CAF90] text-md font-semibold':''} to="/blog">Blog</NavLink> </li>
+            <li><NavLink className={({isActive})=>isActive?'text-[#5CAF90] text-md font-semibold':''} to="/about">About</NavLink> </li>
+            <li><NavLink className={({isActive})=>isActive?'text-[#5CAF90] text-md font-semibold':''} to="/contact">Contact</NavLink> </li>
           </ul>
 
         </div>
