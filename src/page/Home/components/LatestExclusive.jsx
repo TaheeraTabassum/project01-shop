@@ -2,8 +2,8 @@
 
 const LatestExclusive = () => {
     return (
-        <div className='py-24 relative container md:mx-auto'>
-            <div className="mx-5 rounded-md md:w-full w-fit ">
+        <div className='py-24 relative container mx-auto'>
+            <div className=" rounded-md md:w-full w-fit ">
                 <img src="https://sakib-ecommerce-react-router.netlify.app/assets/execulisive%20colloction-xPfol6Zx.jpg" alt="" />
             </div>
                 <div className='text-white flex justify-center h-full gap-4 flex-col items-center text-center md:items-end md:text-right absolute top-10 right-30'>

@@ -33,7 +33,7 @@ const Footer = () => {
   return (
     <footer className="bg-white border-t border-gray-200  mt-12">
       {/* Top Section */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-6 lg:gap-8 text-center sm:text-left text-gray-700">
+      <div className="container mx-auto lg:px-8 py-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-6 lg:gap-8 text-center sm:text-left text-gray-700">
         {/* Logo & Description */}
         <div className="lg:col-span-2">
           <div className="flex items-center justify-center sm:justify-start gap-3 mb-3">

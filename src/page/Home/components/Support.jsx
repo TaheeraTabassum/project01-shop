@@ -39,7 +39,7 @@ const Support = () => {
                 {
                     features.map(f=> (
                         <div className='w-full sm:w-1/2 md:w-1/4 lg:w-1/5 flex-grow'>
-                            <div className='border border-gray-200 text-center rounded-md px-4 py-6 h-full'>
+                            <div className='border border-gray-200 text-center rounded-md md:px-4 py-6 h-full'>
                                {f.icon}
                                 <p className=' text-gray-500 font-semibold'>{f.title}</p>
                                 <p className='ts  text-gray-500'>{f.subtitle}</p>

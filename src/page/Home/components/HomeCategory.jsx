@@ -9,7 +9,7 @@ const HomeCategory = () => {
 
 
     return (
-        <div className='container md:mx-auto px-4 sm:px-2 md:px-12 lg:px-24 mt-24 '>
+        <div className='container mx-auto px-4 sm:px-2 md:px-12 lg:px-24 mt-24 '>
            <div className=' grid grid-cols-3 md:flex  justify-center gap-4 sm:gap-6 md:gap-12 '>
             {categorys.slice(1,7).map(category=>(
             <Link to="/shop" onClick={() => setCategoryId(category.id)}>

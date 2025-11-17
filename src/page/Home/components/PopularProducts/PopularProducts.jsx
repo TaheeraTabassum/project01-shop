@@ -14,7 +14,7 @@ const PopularProducts = () => {
     }
     const filterProduct = categoryId ? products.filter(p=>p.id==categoryId) : products ;
     return (
-        <div className='container md:mx-auto px-4 sm:px-8 md:px-12 lg:px-24 pt-24 '>
+        <div className='container mx-auto px-4 sm:px-8 md:px-12 lg:px-24 pt-24 '>
             <div className='flex flex-wrap justify-between #5CAF90'>
                 <div>
                     <SectionHeading heading={"Popular"} colorHeading={"Products"} discription={"Shop online for new arrivals and get free shipping!"}></SectionHeading>
@@ -32,7 +32,7 @@ const PopularProducts = () => {
             </div>
 
             <div>
-                <div className='grid grid-cols-1 pl-18 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8  mb-4 mt-12'>
+                <div className='grid grid-cols-1  md:pl-0 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8  mb-4 mt-12'>
                     {filterProduct
                         .map(product => <ProductCard key={product.id} product={product}></ProductCard>)}
                 </div>

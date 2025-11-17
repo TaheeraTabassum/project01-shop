@@ -4,7 +4,7 @@ import Btn from "../../../shared/Btn";
 
 const Hero = () => {
   return (
-    <div className="container md:mx-auto my-10 relative">
+    <div className="container mx-auto my-10 relative">
       {/* Image */}
       <img
         className=" rounded-md md:w-full w-fit "
