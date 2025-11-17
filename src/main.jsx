@@ -10,6 +10,7 @@ import Shop from './page/Shop/Shop';
 import Blog from './page/Blog/Blog';
 import Contact from './page/Contact/Contact';
 import About from './page/About/About';
+import SingleProductPage from './shared/SingleProductPage';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,11 @@ const router = createBrowserRouter([
       {
         path:"/blog",
         element: <Blog></Blog>
+      }
+      ,
+      {
+        path:"/shop/:id",
+        element: <SingleProductPage></SingleProductPage>
       }
     ]
   },

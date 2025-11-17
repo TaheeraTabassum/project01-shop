@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Gadgets",
+    "type": "electronics",
+    "items": 154,
+    "sizes": ["Small", "Medium", "Large"],
+    "icon": "gadget-icon.png",
+    "image":"https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/category/c-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Clothes",
+    "type": "fashion",
+    "items": 320,
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "icon": "clothes-icon.png",
+    "image":"https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/category/c-4.png"
+  },
+  {
+    "id": 3,
+    "name": "Watches",
+    "type": "accessories",
+    "items": 65,
+    "sizes": ["Standard"],
+    "icon": "watch-icon.png",
+    "image":"https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/54_1.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Dresses",
+    "type": "fashion",
+    "items": 548,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "icon": "dress-icon.png",
+    "image":"https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/category/c-1.png"
+  },
+  {
+    "id": 5,
+    "name": "Glasses",
+    "type": "accessories",
+    "items": 48,
+    "sizes": ["One Size"],
+    "icon": "glasses-icon.png",
+    "image":"https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/category/c-4.png"
+  },
+  {
+    "id": 6,
+    "name": "Cosmetics",
+    "type": "beauty",
+    "items": 59,
+    "sizes": ["Small", "Medium", "Large"],
+    "icon": "cosmetics-icon.png",
+    "image":"https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/54_1.jpg"
+  }
+]
