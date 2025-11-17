@@ -35,7 +35,7 @@ const Support = () => {
     return (
 
         <div>
-            <div className='flex flex-wrap gap-4 justify-center container mx-auto px-4 sm:px-8 md:px-12 lg:px-24'>
+            <div className='flex flex-wrap gap-4 justify-center container mx-auto px-1 sm:px-8 md:px-12 lg:px-24'>
                 {
                     features.map(f=> (
                         <div className='w-full sm:w-1/2 md:w-1/4 lg:w-1/5 flex-grow'>

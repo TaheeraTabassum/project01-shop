@@ -1,4 +1,5 @@
 [
+
   {
     "id": 1,
     "title": "Wireless Mini Bluetooth Speaker",
@@ -78,7 +79,7 @@
     "image": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/50_1.jpg"
   },
   {
-    "id": 7,
+    "id": 2,
     "title": "Smart Fitness Band Waterproof",
     "category": "Gadgets",
     "type": "electronics",
@@ -91,7 +92,7 @@
     "image": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/38_1.jpg"
   },
   {
-    "id": 8,
+    "id": 4,
     "title": "Men’s Denim Jeans",
     "category": "Clothes",
     "type": "fashion",
@@ -104,7 +105,7 @@
     "image": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/32_1.jpg"
   },
   {
-    "id": 9,
+    "id": 1,
     "title": "Luxury Gold Watch",
     "category": "Watches",
     "type": "accessories",
@@ -117,7 +118,7 @@
     "image": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/35_2.jpg"
   },
   {
-    "id": 10,
+    "id": 3,
     "title": "Women’s Floral Maxi Dress",
     "category": "Dresses",
     "type": "fashion",

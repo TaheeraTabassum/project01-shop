@@ -1,4 +1,9 @@
 [
+    {
+    "id":"",
+    "name":"All",
+    "type": ""
+  },
   {
     "id": 1,
     "name": "Gadgets",
@@ -11,7 +16,7 @@
   {
     "id": 2,
     "name": "Clothes",
-    "type": "fashion",
+
     "items": 320,
     "sizes": ["S", "M", "L", "XL", "XXL"],
     "icon": "clothes-icon.png",
@@ -38,7 +43,7 @@
   {
     "id": 5,
     "name": "Glasses",
-    "type": "accessories",
+  
     "items": 48,
     "sizes": ["One Size"],
     "icon": "glasses-icon.png",

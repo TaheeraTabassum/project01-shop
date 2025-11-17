@@ -16,7 +16,7 @@ export default function Header() {
         </div>
         <div>
              <div >
-            <div className='flex flex-wrap items-center py-2 justify-between container  mx-auto px-4 sm:px-8 md:px-12 lg:px-24'>
+            <div className='flex flex-wrap items-center py-2 justify-between container  mx-auto px-1 sm:px-8 md:px-12 lg:px-24'>
                 <img className='w-16 md:w-30' src="https://e-commerse-shop-tahira.netlify.app/assets/Tahira's-logo-transparent-D4FTvitO.png" alt="" />
                 <div className='w-full md:w-auto order-3 md:order-2 mt-1 md:mt-0'>
                     <label className="input w-full">

@@ -10,7 +10,7 @@ export default function Nav() {
           <Btn text="All Categories"></Btn>
         </div>
 
-        <div>
+        <div className='hidden lg:block'>
           <ul className='flex gap-12 items-center'>
             <li><NavLink className={({isActive})=>isActive?'text-[#5CAF90] text-md font-semibold':''} to="/">Home</NavLink> </li>
             <li><NavLink className={({isActive})=>isActive?'text-[#5CAF90] text-md font-semibold':''} to="/shop">Shop</NavLink> </li>

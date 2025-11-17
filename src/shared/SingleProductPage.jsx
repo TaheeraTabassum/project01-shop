@@ -63,7 +63,7 @@ const SingleProductPage = () => {
 
             <div className='container mx-auto px-24'>
                 <SectionHeading heading={"Top Rted"} colorHeading={"Seleing Products"} discription={"High-quality denim jeans for men with a comfortable"}></SectionHeading>
-                <div className='grid grid-cols-5 my-12'>
+                <div className='grid grid-cols-5 my-12 gap-8'>
                     {
                         products.slice(0,5).map(p => <ProductCard product={p}></ProductCard>)
                     }
