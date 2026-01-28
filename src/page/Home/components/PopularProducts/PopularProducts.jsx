@@ -24,7 +24,7 @@ const PopularProducts = () => {
                     {
                         categorys.map(category => (
                             <div key={category.id}>
-                                <p onClick={() => handleCategoryId(category?.id)} className={`cursor-pointer ${categoryId === category.id ? 'text-blue-500 font-bold' : ''}`}>{category?.name}</p>
+                                <p onClick={() => handleCategoryId(category?.id)} className={`cursor-pointer ${categoryId === category.id ? ' text-[#5CAF90] font-bold' : ' text-[#5CAF90]'}`}>{category?.name}</p>
                             </div>
                         ))
                     }

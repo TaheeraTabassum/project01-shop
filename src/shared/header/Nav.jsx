@@ -11,12 +11,12 @@ export default function Nav() {
         </div>
 
         <div className='hidden lg:block'>
-          <ul className='flex gap-12 items-center'>
-            <li><NavLink className={({isActive})=>isActive?'text-[#5CAF90] text-md font-semibold':''} to="/">Home</NavLink> </li>
-            <li><NavLink className={({isActive})=>isActive?'text-[#5CAF90] text-md font-semibold':''} to="/shop">Shop</NavLink> </li>
-            <li><NavLink className={({isActive})=>isActive?'text-[#5CAF90] text-md font-semibold':''} to="/blog">Blog</NavLink> </li>
-            <li><NavLink className={({isActive})=>isActive?'text-[#5CAF90] text-md font-semibold':''} to="/about">About</NavLink> </li>
-            <li><NavLink className={({isActive})=>isActive?'text-[#5CAF90] text-md font-semibold':''} to="/contact">Contact</NavLink> </li>
+          <ul className='flex gap-12 items-center  text-[#5CAF90]'>
+            <li><NavLink className={({isActive})=>isActive?'text-[#5CAF90] text-lg  font-bold':''} to="/">Home</NavLink> </li>
+            <li><NavLink className={({isActive})=>isActive?'text-[#5CAF90] text-lg  font-bold':''} to="/shop">Shop</NavLink> </li>
+            <li><NavLink className={({isActive})=>isActive?'text-[#5CAF90] text-lg  font-bold':''} to="/blog">Blog</NavLink> </li>
+            <li><NavLink className={({isActive})=>isActive?'text-[#5CAF90] text-lg  font-bold':''} to="/about">About</NavLink> </li>
+            <li><NavLink className={({isActive})=>isActive?'text-[#5CAF90] text-lg  font-bold':''} to="/contact">Contact</NavLink> </li>
           </ul>
 
         </div>

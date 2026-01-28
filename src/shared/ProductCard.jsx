@@ -32,7 +32,7 @@ const ProductCard = ({ product }) => {
                             <FaStar />
                         </div>
                         <div className='flex  gap-3 '>
-                            <p className='cp flex items-center'>{product.price}<TbCurrencyTaka /></p>
+                            <p className=' text-[#5CAF90] flex items-center'>{product.price}<TbCurrencyTaka /></p>
                             <p className='line-through flex items-center text-gray-400'>{product.mrp} <TbCurrencyTaka /></p>
                         </div>
                     </div>

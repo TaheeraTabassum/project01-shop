@@ -5,7 +5,7 @@ const TopHeader = () => {
     return (
         <div className=" py-2 ">
 
-            <div className="flex flex-wrap justify-between items-center container mx-auto px-4 sm:px-8 md:px-12 lg:px-24 ">
+            <div className="flex flex-wrap justify-between items-center container mx-auto px-4 sm:px-8 md:px-12 lg:px-24  text-[#5CAF90] ">
                 <div className="flex items-center gap-4 sm:gap-8 md:gap-12 ct ">
                     <div className="flex items-center gap-2">
                         <MdOutlinePhoneInTalk />

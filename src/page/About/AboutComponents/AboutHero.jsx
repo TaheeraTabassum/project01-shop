@@ -15,7 +15,7 @@ const AboutHero = () => {
                 <div className="w-full md:w-1/2 md:pl-12 mt-8 md:mt-0">
                     <SectionHeading heading={"Who "} colorHeading={"We Are?"}></SectionHeading>
                     <h3 className="uppercase text-lg sm:text-xl font-semibold  my-4 text-gray-600">We’re here to serve only the best products for you. Enriching your homes with the best essentials.</h3>
-                    <p className="tp">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    <p className=" text-[#5CAF90]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                         <br />
                         Lorem Ipsum has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                         <br />

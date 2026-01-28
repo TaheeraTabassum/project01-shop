@@ -5,7 +5,7 @@ import Footer from './shared/Footer'
 
 export default function Root() {
   return (
-    <div>
+    <div className='bg-white'>
       <Header></Header>
         <Outlet></Outlet>
         <Footer></Footer>

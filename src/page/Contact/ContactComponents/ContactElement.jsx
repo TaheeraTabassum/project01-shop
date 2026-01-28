@@ -16,33 +16,33 @@ const ContactElement = () => {
                     <div className='border border-gray-200 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex-grow px-8 py-5 rounded-md'>
                         <div className='flex flex-col items-center justify-center'>
 
-                            <div className='text-3xl border p-4 rounded-md my-3 border-gray-200'>
+                            <div className='text-3xl border p-4 rounded-md my-3 border-gray-200  text-[#5CAF90]'>
                                 <FaPhone />
                             </div>
-                            <p className='text-xl font-semibold text-gray-700'>Contact With Phone</p>
-                            <h3>Phone: 01753924093</h3>
-                            <h3>Phone: 01753924093</h3>
+                            <p className='text-xl font-semibold  text-[#5CAF90]'>Contact With Phone</p>
+                            <h3 className=' text-[#5CAF90]'>Phone: 01753924093</h3>
+                            <h3 className=' text-[#5CAF90]'>Phone: 01753924093</h3>
                         </div>
                     </div>
                     <div className='border border-gray-200 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex-grow px-8 py-5 rounded-md'>
                         <div className='flex flex-col items-center justify-center'>
 
-                            <div className='text-3xl border p-4 rounded-md my-3 border-gray-200'>
+                            <div className='text-3xl border p-4 rounded-md my-3  text-[#5CAF90] border-gray-200'>
                                 <MdOutlineMail />
                             </div>
-                            <p className='text-xl font-semibold text-gray-700'>Contact With Phone</p>
-                            <h3>Phone: 01753924093</h3>
-                            <h3>Phone: 01753924093</h3>
+                            <p className='text-xl font-semibold  text-[#5CAF90]'>Contact With Phone</p>
+                            <h3 className=' text-[#5CAF90]'>Phone: 01753924093</h3>
+                            <h3 className=' text-[#5CAF90]'>Phone: 01753924093</h3>
                         </div>
                     </div>
                     <div className='border border-gray-200 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex-grow px-8 py-5 rounded-md'>
                         <div className='flex flex-col items-center justify-center'>
 
-                            <div className='text-3xl border p-4 rounded-md my-3 border-gray-200'>
+                            <div className='text-3xl border p-4 rounded-md my-3  text-[#5CAF90] border-gray-200'>
                                 <CiLocationOn />
                             </div>
-                            <p className='text-xl font-semibold text-gray-700'>Addresse</p>
-                            <h3 className='text-center'>   Ruami Mello Moraes Filho, 987 - Salvador - MA, 40352, Brazil.</h3>
+                            <p className='text-xl font-semibold  text-[#5CAF90]'>Addresse</p>
+                            <h3 className='text-center  text-[#5CAF90]'>   Ruami Mello Moraes Filho, 987 - Salvador - MA, 40352, Brazil.</h3>
 
                         </div>
                     </div>

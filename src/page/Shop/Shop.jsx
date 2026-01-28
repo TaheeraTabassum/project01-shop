@@ -28,7 +28,7 @@ const handleType = (type)=>{
                     <div className='border border-gray-200 p-3 rounded-md'>
 
 
-                        <p className='border-b border-gray-200 pb-3 mb-4 font-semibold text-lg'>Category</p>
+                        <p className='border-b border-gray-200 pb-3 mb-4 font-semibold text-lg  text-[#5CAF90]'>Category</p>
                         {
                             categorys.map(category => (
                                 <div key={category.id} className='flex gap-2 items-center mb-2'>
@@ -39,7 +39,7 @@ const handleType = (type)=>{
                                         onClick={() => handleId(category.id)}
                                     />
                                     <p
-                                        className='cursor-pointer select-none'
+                                        className='cursor-pointer select-none  text-[#5CAF90]'
                                         onClick={() => handleId(category.id)}
                                     >
                                         {category.name}
@@ -62,7 +62,7 @@ const handleType = (type)=>{
                                         />
                                         <p
                                             onClick={() => handleType(w)}
-                                            className='cursor-pointer select-none'
+                                            className='cursor-pointer select-none  text-[#5CAF90]'
                                         >
                                             {w}
                                         </p>

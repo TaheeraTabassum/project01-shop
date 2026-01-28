@@ -19,7 +19,7 @@ export default function Header() {
             <div className='flex flex-wrap items-center py-2 justify-between container  mx-auto px-1 sm:px-8 md:px-12 lg:px-24'>
                 <img className='w-16 md:w-30' src="https://e-commerse-shop-tahira.netlify.app/assets/Tahira's-logo-transparent-D4FTvitO.png" alt="" />
                 <div className='w-full md:w-auto order-3 md:order-2 mt-1 md:mt-0'>
-                    <label className="input w-full">
+                    <label className="input border border-pink-200 w-full bg-amber-50  text-[#5CAF90] text-md font-bold">
                         <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <g
                                 strokeLinejoin="round"
@@ -35,7 +35,7 @@ export default function Header() {
                         <input type="search" className='w-full lg:w-100' required placeholder="Search . . ." />
                     </label>
                 </div>
-                <div className='flex gap-5 order-2 md:order-3'>
+                <div className='flex gap-5 order-2 md:order-3  text-[#5CAF90]'>
                     <div className='flex items-center gap-1'>
 
                         <CiUser className='text-3xl' />
