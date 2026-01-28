@@ -16,8 +16,8 @@ const SingleProductPage = () => {
                 <div className='flex items-center gap-8 my-12 justify-center'>
                     <img className='w-120 rounded-md' src={findProducts?.image} alt="" />
                     <div>
-                        <p className='ts'>{findProducts?.category}</p>
-                        <h3 className='text-4xl font-semibold'>{findProducts?.title}</h3>
+                        <p className=' text-[#5CAF90]'>{findProducts?.category}</p>
+                        <h3 className='text-4xl font-semibold  text-[#5CAF90]'>{findProducts?.title}</h3>
                         <div className='flex items-center gap-12'>
 
                             <div className='flex gap-1 py-2 text-orange-500'>
@@ -28,27 +28,27 @@ const SingleProductPage = () => {
                                 <FaStar />
                             </div>
                             <div>
-                                <p className='ts'>Total Rating : {findProducts?.rating}</p>
+                                <p className=' text-[#5CAF90]'>Total Rating : {findProducts?.rating}</p>
                             </div>
 
                         </div>
-                        <div className='flex gap-4 text-2xl '>
+                        <div className='flex gap-4 text-2xl  text-[#5CAF90] '>
                             <p>Price : $ {findProducts?.price}</p>
                             <p className='line-through text-gray-400'>$ {findProducts?.oldPrice}</p>
                         </div>
                         <div>
-                            <p className='ts mb-4'>{findProducts?.description}</p>
+                            <p className=' text-[#5CAF90] mb-4'>{findProducts?.description}</p>
                           
-                            <p className='font-semibold'>Stock: <span className='font-normal text-gray-600'>{findProducts?.stock}</span></p>
-                            <p className='font-semibold'>type <span className='font-normal text-gray-600'>{findProducts?.type}</span></p>
+                            <p className='font-semibold  text-[#5CAF90]'>Stock: <span className='font-normal text-gray-600'>{findProducts?.stock}</span></p>
+                            <p className='font-semibold  text-[#5CAF90]'>type <span className='font-normal text-gray-600'>{findProducts?.type}</span></p>
                         </div>
 
-                        <div className='flex gap-2 items-center'>
+                        <div className='flex gap-2 items-center  text-[#5CAF90]'>
                             <p className='font-semibold mr-3 my-4'>Size : <span className='font-normal'>{findProducts?.sizes}</span> </p>
                          
                         </div>
                         <div className='flex gap-2 my-4'>
-                            <div className='flex gap-4 border border-gray-200 px-8 py-2 rounded-md'>
+                            <div className='flex gap-4  text-[#5CAF90] border border-gray-200 px-8 py-2 rounded-md'>
                                 <p>-</p>
                                 <p>1</p>
                                 <p>+</p>

@@ -21,8 +21,8 @@ const ProductCard = ({ product }) => {
                 </div>
                 <Link to={`/shop/${product.id}`}>
 
-                    <div className='p-3 pl-5'>
-                        <p className='text-gray-400'>{product.category}</p>
+                    <div className='p-3 pl-5 '>
+                        <p className='text-gray-400 '>{product.category}</p>
                         <h3 className='font-semibold text-gray-700'>{product.title}</h3>
                         <div className='flex gap-1 py-2 text-orange-500'>
                             <FaStar />
